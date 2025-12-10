@@ -8,6 +8,7 @@ import { ClipLoader } from "react-spinners";
 import { toast } from 'react-toastify';
 const Login = () => {
     const navigate = useNavigate();
+    //state of showing password
     const [showPassword, setShowPassword] = useState(false)
 
     const [email, setEmail] = useState('')
@@ -30,44 +31,7 @@ try {
   setLoading(false)
 }
     }
-    // return (
-    //     <div className='min-h-screen w-full flex items-center justify-center p-4 bg-teal-50'>
-
-    //         <div className='rounded-xl bg-white shadow-2xl shadow-teal-300 w-full max-w-md p-8 border-[1px] border-teal-400'>
-    //             <h1 className='text-3xl font-bold mb-2 text-teal-600'>SignIn Page</h1>
-
-              
-
-    //             {/* email */}
-    //             <div className='mb-4'>
-    //                 <label htmlFor="email" className='block text-gray-700 font-medium mb-1'>Email</label>
-    //                 <input onChange={(e)=>setEmail(e.target.value)} value={email} type="email" className='w-full border rounded-lg px-3 py-2 border-teal-500 outline-none text-teal-700' placeholder='Enter Your Email' required />
-    //             </div>
-
-    //             {/* Password */}
-    //             <div className='mb-4'>
-    //                 <label htmlFor="password" className='block text-gray-700 font-medium mb-1'>Password</label>
-    //                 <div className='relative'>
-    //                     <input onChange={(e)=>setPassword(e.target.value)} value={password} type={`${showPassword ? "text" : "password"}`} className='w-full border rounded-lg px-3 py-2 border-teal-500 outline-none text-teal-600' placeholder='Enter Your Password' required />
-    //                     <button className='absolute cursor-pointer right-3 top-2.5 text-teal-700' onClick={() => setShowPassword(prev => !prev)}>{!showPassword ? <FaEye size={18} /> : <FaEyeSlash size={18} />}</button>
-
-    //                 </div>
-    //             </div>
-    //             <div className='w-full '>
-    //              <button onClick={handleSignIn} className='bg-teal-500 w-full rounded-2xl py-2 text-white cursor-pointer hover:bg-emerald-500'>
-    //              {loading?<ClipLoader size={20} color='white'/>:"Sign In"}
-                  
-    //              </button>
-                
-    //             <p  className='text-sm items-center  px-19'>Doesn't have an account?<span onClick={()=>navigate('/signup')} className='text-teal-700 underline cursor-pointer'>SignUp</span></p>
-
-    //             </div>
-     
-
-    //         </div>
-
-    //     </div>
-    // )
+   
     return (
   <div className="min-h-screen w-full flex items-center justify-center bg-gradient-to-br from-slate-500 via-purple-500 to-slate-400 p-6 relative overflow-hidden">
     {/* Animated background elements */}
