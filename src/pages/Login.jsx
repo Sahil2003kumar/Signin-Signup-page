@@ -54,7 +54,7 @@ try {
         <h1 className="text-4xl font-bold mb-2 bg-gradient-to-r from-purple-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent tracking-tight">
           Welcome Back
         </h1>
-        <p className="text-slate-400 text-sm">Sign in to continue your journey</p>
+        <p className="text-slate-400 text-sm">Sign in to continue yours journey</p>
       </div>
 
       {/* email */}
