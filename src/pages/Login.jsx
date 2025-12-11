@@ -65,7 +65,7 @@ try {
           value={email}
           type="email"
           className="w-full bg-slate-700/50 backdrop-blur-sm border border-slate-600/50 focus:border-cyan-400 rounded-xl px-4 py-3 text-white placeholder:text-slate-500 outline-none transition-all duration-300 focus:ring-2 focus:ring-cyan-400/30 focus:bg-slate-700/70 hover:border-slate-500"
-          placeholder="Enter your email"
+          placeholder="Enter Your email"
           required
         />
       </div>
