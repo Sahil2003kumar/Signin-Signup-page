@@ -68,7 +68,7 @@ return res.status(400).json({message:"incorrect password and Email"})
     }
 }
 
-//signout controlller 
+//signout controller logic
 export const signOut = async(req, res)=>{
     try {
         res.clearCookie("token")
