@@ -128,7 +128,7 @@ return (
           onClick={() => navigate('/signin')}
           className="text-cyan-400 font-bold hover:text-cyan-300 cursor-pointer transition-colors duration-200 hover:underline"
         >
-          Sign In
+          SIGN UP
         </span>
       </p>
     </div>
