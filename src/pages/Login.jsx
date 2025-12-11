@@ -12,10 +12,13 @@ const Login = () => {
     //done
     const [showPassword, setShowPassword] = useState(false)
 
+    //state for storing the data
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     const [loading, setLoading] = useState(false)
 
+
+    //handle sign in function for handle the signin
     const handleSignIn= async()=>{
       setLoading(true)
 try {
