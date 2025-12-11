@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 
+//schema create for login and signup pages
 const userSchema=new mongoose.Schema({
     fullName:{
         type:String,
@@ -16,3 +17,4 @@ const userSchema=new mongoose.Schema({
 },{timestamps:true})
 const User=mongoose.model("User",userSchema);
 export default User
+
