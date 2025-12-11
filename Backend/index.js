@@ -9,6 +9,7 @@ import cors from 'cors'
 
 const app = express()
 const port=process.env.PORT || 5000;
+//setting up middlewares using cors
 app.use(cors({
     origin:"http://localhost:5173",
     credentials:true
