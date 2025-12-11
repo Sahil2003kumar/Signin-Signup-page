@@ -39,7 +39,7 @@ export const signUp = async (req, res) => {
     }
 }
 
-//signin Controller
+//signin controller logic
 export const signIn = async (req, res) => {
     try {
         const {  email, password } = req.body
