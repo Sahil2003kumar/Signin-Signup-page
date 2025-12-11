@@ -29,7 +29,7 @@ try {
     setEmail('')
     setPassword('')
     setLoading(false)
-    toast.success("Login Successful")
+    toast.success("Login Successfull")
 } catch (error) {
   toast.error(error.response.data.message)  
   setLoading(false)
