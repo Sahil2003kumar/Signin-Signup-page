@@ -55,7 +55,7 @@ return (
         <h1 className="text-4xl font-bold mb-2 bg-gradient-to-r from-purple-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent tracking-tight">
           Create Account
         </h1>
-        <p className="text-slate-400 text-sm">Join Us And Start Your journey today</p>
+        <p className="text-slate-400 text-sm">Join Us And Start Your Journey today</p>
       </div>
 
       {/* fullname */}
