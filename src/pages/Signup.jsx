@@ -11,6 +11,7 @@ const Signup = () => {
     const navigate = useNavigate();
     const [showPassword, setShowPassword] = useState(false)
 
+    // state for storing the data
     const [fullName, setFullName] = useState('')
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
