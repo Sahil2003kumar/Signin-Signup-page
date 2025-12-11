@@ -112,7 +112,7 @@ try {
       </div>
 
       <p className="text-center text-white text-sm">
-        Don't have an account?{" "}
+        Don't Have An Account?{" "}
         <span
           onClick={() => navigate('/signup')}
           className="text-cyan-400 font-bold hover:text-cyan-300 cursor-pointer transition-colors duration-200 hover:underline"
